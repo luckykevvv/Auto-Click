@@ -1,0 +1,5 @@
+使用说明：
+
+参考action list中给出的指令，在steps.xlsx中按照先后顺序填入指令，建议将目标图片放入steps文件夹并在excel文件的Image path列填入
+steps/文件名。同时如果对应指令需要其他参数，请一并填入。除了识别图片外，在location列直接写坐标也可进行自动化操作，如果选择这样
+还请将Image path留空。

@@ -1,0 +1,13 @@
+Click   左键点击
+Move    移动鼠标
+Scroll  滚动
+Type    打字
+Drag    拖动
+Right Click 右键点击
+Wait    等待
+Jump    检测到图片后跳跃到x行
+Hold    按住
+
+
+Note: please copy and paste the action command into the steps.xlsx
+注意：请把英文的指令复制进steps.xlsx
