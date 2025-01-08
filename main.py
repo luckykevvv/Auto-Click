@@ -116,10 +116,12 @@ def excute(currentRow):
         print("没有找到对应的操作")
         
 if __name__ == '__main__':
-    for i in range(len(sheet['A'])-1):
-        while skip_counter>0:
-            skip_counter-=1
-            continue
-        print("第"+str(i)+"行")
-        excute(start_row+i)
+    i=len(sheet['A'])-1
+    
+    n=0
+    while n<=i:
+        if skip_counter>0:
+            n=skip_counter
+        print("第"+str(n)+"行")
+        excute(n)
     print("完成")
