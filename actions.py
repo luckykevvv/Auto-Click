@@ -1,14 +1,6 @@
 from time import sleep
 import pyautogui
-from PIL import ImageGrab, Image
-import pyscreeze
 import cv2
-import random
-import time
-import os
-import string
-import random
-import string
 import numpy as np
 
 
