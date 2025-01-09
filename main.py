@@ -44,6 +44,8 @@ def getTarget(filePath):
     返回:
         numpy.ndarray: 读取的目标图片
     """
+    filePath=os.path.abspath(str(filePath))
+    print("getting:", filePath)
     # 检查文件是否存在
     if os.path.exists(filePath):
         # 事先读取按钮截图
@@ -112,10 +114,10 @@ def excute(currentRow):
 if __name__ == '__main__':
     i=len(sheet['A'])-1
     
-    n=0
-    while n<=i:
+    n=1
+    while n<i:
         if skip_counter>0:
             n=skip_counter
         print("第"+str(n)+"行")
-        excute(n)
+        excute(n+1)
     print("完成")
